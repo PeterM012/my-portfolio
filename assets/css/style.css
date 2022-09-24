@@ -1,5 +1,6 @@
 body {
-
+    background-color: rgb(45, 47, 59);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -7,22 +8,37 @@ header {
 }
 
 h1 {
+    color:whitesmoke
+}
+
+.background-image {
+    background-image: url("../images/background-image.png");
+    background-color: rgb(45, 47, 59);
 
 }
 
 .io {
-
+    color:red
 }
 
 
 nav {
-
+    color: whitesmoke;
 }
 
 ul {
+    color: whitesmoke;
+}
 
+a {
+    color: whitesmoke;
+}
+
+img{
+    border: 10px double gray;
 }
 
 .portfolio {
-    background-image: ("../images/Portfolio.PNG");
+    width: 280px;
+    height: 500px;
 }
