@@ -11,6 +11,7 @@ figure {
     background-image: url("../images/background-image2.png");
     background-color: rgb(45, 47, 59);
     background-position: center right;
+    position: relative;
 }
 
 header {
@@ -19,8 +20,9 @@ header {
 
 .header-image {
     background-image: url("../images/concrete-pattern2-image.png");
-    padding: 5em;
+    padding: 1em;
     background-repeat: repeat; 
+    position: relative;
 }
 
 h1 {
@@ -45,18 +47,57 @@ a {
 }
 
 img{
-    border: 15px double rgba(29, 13, 2, 0.786);
+    border: 10px rgba(29, 13, 2, 0.786);
+}
+
+.portfolio-image {
+
 }
 
 .portfolio {
-    width: 280px;
-    height: 500px;
+    place-items: left;
+    position: relative;
+    bottom: 140px;
+    right: 0px
+}
+
+.big-picture {
+    width: 600px;
+    height: 900px;
+    position: relative;
+    bottom: 620px;
+    left: 300px;
 }
 
 h2 {
     color: whitesmoke
 }
 
+section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    position: float;
+ 
+}
+
 h5 {
     color: whitesmoke
+}
+
+.verticle-line::before,
+.verticle-line::after {
+    content: '';
+    position:absolute;
+    border: px solid white;
+}
+
+.verticle-line::before {
+    top: 1rem;
+    bottom: 1rem;
+    right: 1rem;
 }
