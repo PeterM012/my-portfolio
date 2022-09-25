@@ -21,8 +21,8 @@ header {
 .header-image {
     background-image: url("../images/concrete-pattern2-image.png");
     padding: 1em;
-    background-repeat: repeat; 
-    position: relative;
+    background-repeat: no-repeat;
+    width: min-content;
 }
 
 h1 {
@@ -36,14 +36,32 @@ h1 {
 
 nav {
     color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
+
+main{
+
+}
+
+
+
+section {
+}
+
 
 ul {
     color: whitesmoke;
 }
 
+nav a {
+    padding: 10px
+}
+
 a {
     color: whitesmoke;
+    font-size: 12px;
 }
 
 img{
@@ -70,34 +88,38 @@ img{
 }
 
 h2 {
-    color: whitesmoke
+    color: whitesmoke;
 }
 
-section {
+footer {
+    color: white;
     position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+
+.footer-position {
     display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
 .info {
-    position: float;
- 
+    display: flex;
 }
 
-h5 {
-    color: whitesmoke
+.info span {
+    margin: 10px;
 }
 
-.verticle-line::before,
-.verticle-line::after {
-    content: '';
-    position:absolute;
-    border: px solid white;
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+    }
 }
 
-.verticle-line::before {
-    top: 1rem;
-    bottom: 1rem;
-    right: 1rem;
+@media screen and (max-width: 900px) {
+    footer {
+        flex-direction: column;
+    }
 }
