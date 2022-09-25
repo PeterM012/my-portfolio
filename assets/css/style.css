@@ -6,8 +6,9 @@ body {
 .background-image {
     background-image: url("../images/background-image2.png");
     background-color: rgb(45, 47, 59);
-    background-position: center right;
-    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header {
@@ -28,9 +29,10 @@ header {
 h1 {
     color: whitesmoke;
     position:absolute;
-    bottom: -60px;
+    bottom: -72px;
     white-space: nowrap;
     left: 0px;
+    font-size: 40px;
 }
 
 .io {
@@ -43,6 +45,18 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;  
+}
+
+.about-me{
+    color:whitesmoke
+}
+
+.work {
+    color:whitesmoke
+}
+
+.contact-me {
+    color:whitesmoke
 }
 
 main{
@@ -58,13 +72,13 @@ section {
 
 nav a {
     padding: 12px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.631);
     text-align: left;
 }
 
 a {
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 24px;
 }
 
 img{
@@ -81,6 +95,7 @@ img{
 
 h2 {
     color: whitesmoke;
+    font-size: 30px;
 }
 
 footer {
@@ -92,8 +107,7 @@ footer {
 
 .footer-position {
     display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .info {
@@ -101,7 +115,11 @@ footer {
 }
 
 .info span {
-    margin: 10px;
+    margin: 5px;
+}
+
+h6 {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 900px) {
