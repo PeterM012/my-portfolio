@@ -39,7 +39,8 @@ h1 {
 
 h2 {
     color: whitesmoke;
-    font-size: 30px;    
+    font-size: 30px;
+    display: block;    
 }
 
 p {
@@ -63,7 +64,7 @@ nav {
 
 #about-me {
     color: whitesmoke;
-    flex: 0 0 0;
+    display: block;
     padding: 10px;
     width: 100%;
     min-width: 400px;
@@ -72,7 +73,7 @@ nav {
 
 #work {
     color:whitesmoke;
-    flex: 0 0 0;
+    display: block;
     padding: 10px;
     width: 100%;
     min-width: 400px;
@@ -81,7 +82,7 @@ nav {
 
 #contact-me {
     color:whitesmoke;
-    flex: 0 0 0;
+    display: block;
     padding: 10px;
     width: 100%;
     min-width: 400px;
@@ -293,11 +294,17 @@ h6 {
     font-size: 20px;
 }
 
-.center {
-    margin:auto;
-    width: 50%;
+main {
     display: flex;
     flex-wrap: wrap;
+}
+
+.center {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2617px;
+    min-width: 1708px;
 }
 
 
@@ -333,6 +340,7 @@ h6 {
         height:220px;
     }
 }
+
 
 @media screen and (max-width: 1708px) {
     .coding-img {
