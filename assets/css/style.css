@@ -60,7 +60,6 @@ nav {
 
 #work {
     color:whitesmoke;
-    color: whitesmoke;
     flex: 0 0 0;
     padding: 10px;
     width: 100%;
@@ -70,8 +69,6 @@ nav {
 
 #contact-me {
     color:whitesmoke;
-    color:whitesmoke;
-    color: whitesmoke;
     flex: 0 0 0;
     padding: 10px;
     width: 100%;
@@ -79,111 +76,135 @@ nav {
     max-width: 400px
 }
 
+
 .laptop-figure-tag {
     position:relative
 }
 
 .laptop-figure-tag::before {
     position:absolute;
-    top: 10%;
+    top: 80%;
     display:block;
-    color: black;
+    color: red;
     padding: 0.5rem 1rem;
     font-weight:bold;
 }
 
 .laptop-figure-tag.laptop-figure-tag.tag-featured::before {
     content: "Mini Project";
-    background-color: red;
+    background-color: black;
+    border-radius: 5px 50px 30px 15px;
 }
 
 .keyboard-figure-tag {
-    position:relative
+    position:relative;
 }
 
 .keyboard-figure-tag::before {
     position:absolute;
-    top: 10%;
+    top: 60%;
     display:block;
-    color: black;
+    color: red;
     padding: 0.5rem 1rem;
     font-weight:bold;
 }
 
 .keyboard-figure-tag.keyboard-figure-tag.tag-featured::before {
     content: "Mini Project";
-    background-color: red;
+    background-color: black;
+    border-radius: 5px 50px 30px 15px;
 }
 
 .coding-figure-tag {
-    position:relative
+    position:relative;
 }
 
 .coding-figure-tag::before {
     position:absolute;
-    top: 10%;
+    top: 60%;
     display:block;
-    color: black;
+    color: red;
     padding: 0.5rem 1rem;
     font-weight:bold;
 }
 
 .coding-figure-tag.coding-figure-tag.tag-featured::before {
     content: "Mini Project";
-    background-color: red;
+    background-color: black;
+    border-radius: 5px 50px 30px 15px;
 }
 
-.coding-figure-tag {
+.heatsink-figure-tag {
     position:relative
 }
 
-.coding-figure-tag::before {
+.heatsink-figure-tag::before {
     position:absolute;
-    top: 10%;
+    top: 60%;
     display:block;
-    color: black;
+    color: red;
     padding: 0.5rem 1rem;
     font-weight:bold;
 }
 
-.coding-figure-tag.coding-figure-tag.tag-featured::before {
+.heatsink-figure-tag.heatsink-figure-tag.tag-featured::before {
     content: "Mini Project";
-    background-color: red;
+    background-color: black;
+    border-radius: 5px 50px 30px 15px;
+}
+
+.playstation-figure-tag {
+    position:relative
+}
+
+.playstation-figure-tag::before {
+    position:absolute;
+    top: 60%;
+    display:block;
+    color: red;
+    padding: 0.5rem 1rem;
+    font-weight:bold;
+}
+
+.playstation-figure-tag.playstation-figure-tag.tag-featured::before {
+    content: "Mini Project";
+    background-color: black;
+    border-radius: 5px 50px 30px 15px;
 }
 
 .laptop-img {
     width: 1200px;
     height: 600px;
     background-color: black;
-    border: 10px ridge white;
+    border: 10px ridge gray;
 }
 
 .keyboard-img {
-    width: 588px;
+    width: 550px;
     height: 200px;
     background-color: black;
-    border: 10px ridge white;
+    border: 10px ridge gray;
 }
 
 .coding-img {
-    width: 588px;
+    width: 550px;
     height: 200px;
     background-color: black;
-    border: 10px ridge white;
+    border: 10px ridge gray;
 }
 
 .heat-sink-img {
-    width: 588px;
+    width: 550px;
     height: 200px;
     background-color: black;
-    border: 10px ridge white;
+    border: 10px ridge gray;
 }
 
 .playstation-img {
-    width: 588px;
+    width: 550px;
     height: 200px;
     background-color: black;
-    border: 10px ridge white;
+    border: 10px ridge gray;
 }
 
 nav a {
@@ -201,7 +222,6 @@ h2 {
 a {
     color: whitesmoke;
     font-size: 24px;
-    position: relative;
 }
 
 h3 {
@@ -235,9 +255,12 @@ h6 {
 }
 
 .center {
-    margin: auto;
-    width: 600px;
+    margin:auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 @media screen and (max-width: 900px) {
     nav {
@@ -245,32 +268,27 @@ h6 {
     }
 }
 
-@media screen and (max-width: 900px) {
-    .center{
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 2689px) {
-    .center {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 2689px) {
-    .center {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1801px) {
-    .laptop-img {
-        width: 588px;
-        height: 400px;
-    }
-}
-
 @media screen and (max-width: 450px) {
     footer {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 2617px) {
+    .laptop-img {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 2617px) {
+    .laptop-img {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .laptop-img {
+        width: 550px;
+        height:400px;
     }
 }
