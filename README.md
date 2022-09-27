@@ -23,7 +23,7 @@ https://peterm012.github.io/my-portfolio/
 - Have a responsive Layout that adapts to viewport
 
 ## Summary 
-This project was to create a delpoyed portfolio showcasing samples of my work to prove that I am a worthy candidate for an open position. I achieved this by utilizing advance CSS techniques. I did this by creating a webpage that adjust to the viewpoint needed without distorted the images or text. I implements a navagational bar with a hover action to really make the words pop. I also created the footer to display the logos/icons which can access the correlating destination. My biggest success for this project was getting the Tags to be displayed on the images at any viewpoint. Below is the code I used to achieve this. It took 3 days to solve my problem but i would say it displays great!
+This project was to create a deployed portfolio showcasing samples of my work to prove that I am a worthy candidate for an open position. I achieved this by utilizing advance CSS techniques. I did this by creating a webpage that adjust to the viewpoint needed without distorting the images or text. I implemented a navagational bar with a hover action to really make the words pop. I also created the footer to display the logos/icons which can access the correlating destination. My biggest success for this project was getting the Tags to be displayed on the images at any viewpoint. Below is the code I used to achieve this. It took 3 days to solve my problem but i would say it displays great!
 
 ## Code Snippet
 Code for HTML Tags on the Images 
