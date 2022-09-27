@@ -23,7 +23,7 @@ https://peterm012.github.io/my-portfolio/
 - Have a responsive Layout that adapts to viewport
 
 ## Summary 
-This project was to show how to properly refactor and improve the code base for sustainability and accessibility. Using semantic HTML I improved the quality of selectors and properties in CSS. I used comments between each line to provide organization and maintain a healthy form of communication between other developers. I also exceeded expectations with code using alt attributes and optimized the search engine parameters to meet the client's accessibility standards.
+This project was to create a delpoyed portfolio showcasing samples of my work to prove that I am a worthy candidate for an open position. I achieved this by utilizing advance CSS techniques. I did this by creating a webpage that adjust to the viewpoint needed without distorted the images or text. I implements a navagational bar with a hover action to really make the words pop. I also created the footer to display the logos/icons which can access the correlating destination. My biggest success for this project was getting the Tags to be displayed on the images at any viewpoint. Below is the code I used to achieve this. It took 3 days to solve my problem but i would say it displays great!
 
 ## Code Snippet
 Code for HTML Tags on the Images 
