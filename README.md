@@ -4,7 +4,7 @@
 https://peterm012.github.io/my-portfolio/
 
 ## Site Picture 
-(![image](https://user-images.githubusercontent.com/110750833/192427540-01fbde0b-feac-40a2-940f-9f6b98259459.png)
+![image](https://user-images.githubusercontent.com/110750833/192427540-01fbde0b-feac-40a2-940f-9f6b98259459.png)
 
 ## Technologies Used
 - HTML - Used to create elements on the DOM
@@ -13,12 +13,14 @@ https://peterm012.github.io/my-portfolio/
 - GitHub - hosts reposiory that can be deployed to Github Pages
 
 ## To Do
-- Leave code cleaner
-- Make sure Navigation Bar works properly
-- Consolidate CSS selectors
-- Include Semantic Structure
-- Include Comments
-- Compliant with Accessibilty standards
+- Add links that scroll to corresponding selection
+- Have at Least 5 Links
+- About ME, Work, Contact Me
+- First Application must be the biggest image
+- Images of Applications and Tags in boxes
+- When image is clicked on must send user to deployment page
+- Resize Page to correspond with respective screens or device
+- Have a responsive Layout that adapts to viewport
 
 ## Summary 
 This project was to show how to properly refactor and improve the code base for sustainability and accessibility. Using semantic HTML I improved the quality of selectors and properties in CSS. I used comments between each line to provide organization and maintain a healthy form of communication between other developers. I also exceeded expectations with code using alt attributes and optimized the search engine parameters to meet the client's accessibility standards.
@@ -26,26 +28,29 @@ This project was to show how to properly refactor and improve the code base for 
 ## Code Snippet
 Navigation Bar code
 ```html
-   <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
 
-        <!--Navigation Bar top of page--> 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+          <figure class="laptop-figure-tag tag-featured">
+            <img src="./assets/images/laptop-main.png" class="laptop-img" alt="Laptop with a notebook, a coffe cup, and a bag on a table"></img>
+          </figure>
 
-    <!--Center Image--> 
-    <img class="hero"></img>
-    
+```
+```css
+.laptop-figure-tag {
+    position:relative;
+}
+
+.laptop-figure-tag::before {
+    position:absolute;
+    top: 80%;
+    display:block;
+    color: red;
+    padding: 0.5rem 1rem;
+    font-weight:bold;
+}
+
+.laptop-figure-tag.laptop-figure-tag.tag-featured::before {
+    content: "Coming Soon";
+    background-color: black;
+    border-radius: 5px 50px 30px 15px;
+}
 ```
