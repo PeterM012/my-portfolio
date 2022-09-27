@@ -2,7 +2,7 @@ body {
     background-color: rgb(45, 47, 59);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+/* Background Image */
 .background-image {
     background-image: url("../images/background-image3.png");
     background-color: rgb(45, 47, 59);
@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*Main Avatar Picture and Developer Name*/
 header {
     position: relative;
     margin-bottom: 3em;
@@ -28,6 +28,7 @@ header {
     height: 140px;
 }
 
+/*Developer's name with Red Letters*/
 h1 {
     color: whitesmoke;
     position:absolute;
@@ -42,7 +43,7 @@ h1 {
     color:red
 }
 
-
+/*Navagational Bar and Links*/
 nav {
     color: whitesmoke;
     display: flex;
@@ -110,7 +111,7 @@ nav {
     background-color: rgba(255, 0, 0, 0.443);
 }
 
-
+/*Black and Red Tags on top of Pictures*/
 .laptop-figure-tag {
     position:relative;
 }
@@ -206,6 +207,7 @@ nav {
     border-radius: 5px 50px 30px 15px;
 }
 
+/*Sizing for all Images displayed in the center screen*/
 .laptop-img {
     max-width: 50vw;
     width: 100%;
@@ -246,24 +248,27 @@ nav {
     border: 10px ridge gray;
 }
 
+/*Box surrounding the words in Navigation Bar*/
+
 nav a {
     padding: 12px;
     background-color: rgba(0, 0, 0, 0.631);
     text-align: left;
 }
 
+/*Refrence Links*/
 a {
     color: whitesmoke;
     font-size: 24px;
 }
 
-
+/*Color for side titles on page*/
 h2 {
     color: whitesmoke;
     font-size: 30px; 
 }
 
-
+/*Settings for center paragraph on page*/
 article {
     display: flex;
     flex-flow: wrap-reverse;
@@ -275,12 +280,7 @@ article {
     margin: auto;
 }
 
-h3 {
-    text-align: center;
-    font-size: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
+/*Positioning and Sizing for Icons at bottom of Screen*/
 footer {
     color: white;
     position: relative;
@@ -301,10 +301,7 @@ footer {
     margin: 5px;
 }
 
-h6 {
-    font-size: 20px;
-}
-
+/*Settings for center all Images on Page*/
 .center {
     display: flex;
     flex-wrap: wrap;
@@ -312,6 +309,8 @@ h6 {
     width: 50%;
 }
 
+
+/*Max Screen size for Images Growing and Shrinking*/
 @media screen and (max-width: 2617px) {
     .laptop-img {
         flex-direction: column;
@@ -334,7 +333,6 @@ h6 {
         width:50%;
     }
 }
-
 
 
 @media screen and (max-width: 450px) {
