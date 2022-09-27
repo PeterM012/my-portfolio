@@ -4,7 +4,7 @@
 https://peterm012.github.io/my-portfolio/
 
 ## Site Picture 
-![image]![Uploading image.png…]
+![image](https://peterm012.github.io/my-portfolio/)
 
 ## Technologies Used
 - HTML - Used to create elements on the DOM
