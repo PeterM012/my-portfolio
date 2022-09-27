@@ -26,12 +26,12 @@ https://peterm012.github.io/my-portfolio/
 This project was to show how to properly refactor and improve the code base for sustainability and accessibility. Using semantic HTML I improved the quality of selectors and properties in CSS. I used comments between each line to provide organization and maintain a healthy form of communication between other developers. I also exceeded expectations with code using alt attributes and optimized the search engine parameters to meet the client's accessibility standards.
 
 ## Code Snippet
-Navigation Bar code
+Code for Tags on the Images 
 ```html
 
-          <figure class="laptop-figure-tag tag-featured">
-            <img src="./assets/images/laptop-main.png" class="laptop-img" alt="Laptop with a notebook, a coffe cup, and a bag on a table"></img>
-          </figure>
+<figure class="laptop-figure-tag tag-featured">
+   <img src="./assets/images/laptop-main.png" class="laptop-img" alt="Laptop with a notebook, a coffe cup, and a bag on a table"></img>
+</figure>
 
 ```
 ```css
